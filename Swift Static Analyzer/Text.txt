@@ -1,0 +1,17 @@
+Class Person { 
+ 
+ let age:Int
+ let name: String
+ 
+ let salary: ((Int, String, Array, Bool) -> Int), height:Int)
+ 
+ var rhidita:(name: Rhidita, height:Int)
+ 
+ func fourParameters(name:String, age: Int, height:Int, salary: Bool ) {}
+ 
+ 
+ func parametersWithClosures(name: String, age: Int, weight: (Int, Int)-> (Bool), height:Int, salary:Double, netWorth:(Double)-> (Int), monthly: String){}
+ 
+func noparams() {}
+
+funcTwoParams() {}
